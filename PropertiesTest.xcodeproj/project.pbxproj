@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8475DAB920AEA800003387E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8475DAB820AEA800003387E4 /* main.m */; };
+		8475DABC20AEA800003387E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8475DABB20AEA800003387E4 /* AppDelegate.m */; };
+		8475DABE20AEA800003387E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8475DABD20AEA800003387E4 /* Assets.xcassets */; };
+		8475DAC120AEA800003387E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8475DABF20AEA800003387E4 /* LaunchScreen.storyboard */; };
+		8475DACC20AEA800003387E4 /* PropertiesTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8475DACB20AEA800003387E4 /* PropertiesTestTests.m */; };
+		8475DAD720AEA800003387E4 /* PropertiesTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8475DAD620AEA800003387E4 /* PropertiesTestUITests.m */; };
+		8475DAE620AEA90C003387E4 /* Boxer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8475DAE520AEA90C003387E4 /* Boxer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8475DAC820AEA800003387E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8475DAAC20AEA800003387E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8475DAB320AEA800003387E4;
+			remoteInfo = PropertiesTest;
+		};
+		8475DAD320AEA800003387E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8475DAAC20AEA800003387E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8475DAB320AEA800003387E4;
+			remoteInfo = PropertiesTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8475DAB420AEA800003387E4 /* PropertiesTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PropertiesTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8475DAB820AEA800003387E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8475DABA20AEA800003387E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8475DABB20AEA800003387E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8475DABD20AEA800003387E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8475DAC020AEA800003387E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8475DAC220AEA800003387E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8475DAC720AEA800003387E4 /* PropertiesTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PropertiesTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8475DACB20AEA800003387E4 /* PropertiesTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PropertiesTestTests.m; sourceTree = "<group>"; };
+		8475DACD20AEA800003387E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8475DAD220AEA800003387E4 /* PropertiesTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PropertiesTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8475DAD620AEA800003387E4 /* PropertiesTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PropertiesTestUITests.m; sourceTree = "<group>"; };
+		8475DAD820AEA800003387E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8475DAE420AEA90C003387E4 /* Boxer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boxer.h; sourceTree = "<group>"; };
+		8475DAE520AEA90C003387E4 /* Boxer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Boxer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8475DAB120AEA800003387E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8475DAC420AEA800003387E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8475DACF20AEA800003387E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8475DAAB20AEA800003387E4 = {
+			isa = PBXGroup;
+			children = (
+				8475DAB620AEA800003387E4 /* PropertiesTest */,
+				8475DACA20AEA800003387E4 /* PropertiesTestTests */,
+				8475DAD520AEA800003387E4 /* PropertiesTestUITests */,
+				8475DAB520AEA800003387E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8475DAB520AEA800003387E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8475DAB420AEA800003387E4 /* PropertiesTest.app */,
+				8475DAC720AEA800003387E4 /* PropertiesTestTests.xctest */,
+				8475DAD220AEA800003387E4 /* PropertiesTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8475DAB620AEA800003387E4 /* PropertiesTest */ = {
+			isa = PBXGroup;
+			children = (
+				8475DABA20AEA800003387E4 /* AppDelegate.h */,
+				8475DABB20AEA800003387E4 /* AppDelegate.m */,
+				8475DAE420AEA90C003387E4 /* Boxer.h */,
+				8475DAE520AEA90C003387E4 /* Boxer.m */,
+				8475DABD20AEA800003387E4 /* Assets.xcassets */,
+				8475DABF20AEA800003387E4 /* LaunchScreen.storyboard */,
+				8475DAC220AEA800003387E4 /* Info.plist */,
+				8475DAB720AEA800003387E4 /* Supporting Files */,
+			);
+			path = PropertiesTest;
+			sourceTree = "<group>";
+		};
+		8475DAB720AEA800003387E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8475DAB820AEA800003387E4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8475DACA20AEA800003387E4 /* PropertiesTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				8475DACB20AEA800003387E4 /* PropertiesTestTests.m */,
+				8475DACD20AEA800003387E4 /* Info.plist */,
+			);
+			path = PropertiesTestTests;
+			sourceTree = "<group>";
+		};
+		8475DAD520AEA800003387E4 /* PropertiesTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8475DAD620AEA800003387E4 /* PropertiesTestUITests.m */,
+				8475DAD820AEA800003387E4 /* Info.plist */,
+			);
+			path = PropertiesTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8475DAB320AEA800003387E4 /* PropertiesTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8475DADB20AEA800003387E4 /* Build configuration list for PBXNativeTarget "PropertiesTest" */;
+			buildPhases = (
+				8475DAB020AEA800003387E4 /* Sources */,
+				8475DAB120AEA800003387E4 /* Frameworks */,
+				8475DAB220AEA800003387E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PropertiesTest;
+			productName = PropertiesTest;
+			productReference = 8475DAB420AEA800003387E4 /* PropertiesTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8475DAC620AEA800003387E4 /* PropertiesTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8475DADE20AEA800003387E4 /* Build configuration list for PBXNativeTarget "PropertiesTestTests" */;
+			buildPhases = (
+				8475DAC320AEA800003387E4 /* Sources */,
+				8475DAC420AEA800003387E4 /* Frameworks */,
+				8475DAC520AEA800003387E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8475DAC920AEA800003387E4 /* PBXTargetDependency */,
+			);
+			name = PropertiesTestTests;
+			productName = PropertiesTestTests;
+			productReference = 8475DAC720AEA800003387E4 /* PropertiesTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8475DAD120AEA800003387E4 /* PropertiesTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8475DAE120AEA800003387E4 /* Build configuration list for PBXNativeTarget "PropertiesTestUITests" */;
+			buildPhases = (
+				8475DACE20AEA800003387E4 /* Sources */,
+				8475DACF20AEA800003387E4 /* Frameworks */,
+				8475DAD020AEA800003387E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8475DAD420AEA800003387E4 /* PBXTargetDependency */,
+			);
+			name = PropertiesTestUITests;
+			productName = PropertiesTestUITests;
+			productReference = 8475DAD220AEA800003387E4 /* PropertiesTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8475DAAC20AEA800003387E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Sergio Lechini";
+				TargetAttributes = {
+					8475DAB320AEA800003387E4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					8475DAC620AEA800003387E4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 8475DAB320AEA800003387E4;
+					};
+					8475DAD120AEA800003387E4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 8475DAB320AEA800003387E4;
+					};
+				};
+			};
+			buildConfigurationList = 8475DAAF20AEA800003387E4 /* Build configuration list for PBXProject "PropertiesTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8475DAAB20AEA800003387E4;
+			productRefGroup = 8475DAB520AEA800003387E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8475DAB320AEA800003387E4 /* PropertiesTest */,
+				8475DAC620AEA800003387E4 /* PropertiesTestTests */,
+				8475DAD120AEA800003387E4 /* PropertiesTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8475DAB220AEA800003387E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8475DABE20AEA800003387E4 /* Assets.xcassets in Resources */,
+				8475DAC120AEA800003387E4 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8475DAC520AEA800003387E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8475DAD020AEA800003387E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8475DAB020AEA800003387E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8475DAE620AEA90C003387E4 /* Boxer.m in Sources */,
+				8475DABC20AEA800003387E4 /* AppDelegate.m in Sources */,
+				8475DAB920AEA800003387E4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8475DAC320AEA800003387E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8475DACC20AEA800003387E4 /* PropertiesTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8475DACE20AEA800003387E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8475DAD720AEA800003387E4 /* PropertiesTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8475DAC920AEA800003387E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8475DAB320AEA800003387E4 /* PropertiesTest */;
+			targetProxy = 8475DAC820AEA800003387E4 /* PBXContainerItemProxy */;
+		};
+		8475DAD420AEA800003387E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8475DAB320AEA800003387E4 /* PropertiesTest */;
+			targetProxy = 8475DAD320AEA800003387E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8475DABF20AEA800003387E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8475DAC020AEA800003387E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8475DAD920AEA800003387E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8475DADA20AEA800003387E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8475DADC20AEA800003387E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PropertiesTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sergiolechini.PropertiesTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8475DADD20AEA800003387E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PropertiesTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sergiolechini.PropertiesTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8475DADF20AEA800003387E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PropertiesTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sergiolechini.PropertiesTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PropertiesTest.app/PropertiesTest";
+			};
+			name = Debug;
+		};
+		8475DAE020AEA800003387E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PropertiesTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sergiolechini.PropertiesTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PropertiesTest.app/PropertiesTest";
+			};
+			name = Release;
+		};
+		8475DAE220AEA800003387E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PropertiesTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sergiolechini.PropertiesTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PropertiesTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8475DAE320AEA800003387E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PropertiesTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sergiolechini.PropertiesTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PropertiesTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8475DAAF20AEA800003387E4 /* Build configuration list for PBXProject "PropertiesTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8475DAD920AEA800003387E4 /* Debug */,
+				8475DADA20AEA800003387E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8475DADB20AEA800003387E4 /* Build configuration list for PBXNativeTarget "PropertiesTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8475DADC20AEA800003387E4 /* Debug */,
+				8475DADD20AEA800003387E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8475DADE20AEA800003387E4 /* Build configuration list for PBXNativeTarget "PropertiesTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8475DADF20AEA800003387E4 /* Debug */,
+				8475DAE020AEA800003387E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8475DAE120AEA800003387E4 /* Build configuration list for PBXNativeTarget "PropertiesTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8475DAE220AEA800003387E4 /* Debug */,
+				8475DAE320AEA800003387E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8475DAAC20AEA800003387E4 /* Project object */;
+}
